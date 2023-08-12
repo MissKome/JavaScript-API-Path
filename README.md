@@ -1,3 +1,3 @@
 # JavaScript-API-Path
 
-**Introduction to javascript
+-Introduction to javascript
