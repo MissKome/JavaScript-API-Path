@@ -41,5 +41,5 @@ describe('Mathematical operations', function () {
 
     });
 
-    it('Tis is a test for pending test feature')
+    it('Tis is a test for pending test feature')  //pending test
 });
