@@ -12,7 +12,11 @@
 
 
 ~Mocha Hooks
+
 👉before () : runs before all tests in the code block
+
 👉after () : runs after all tests in the code block
+
 👉beforeEach () : runs before each tests in the code block
+
 👉afterEach () : runs after each tests in the code block
