@@ -4,8 +4,7 @@
   "description": "-Introduction to javascript",
   "main": "test",
   "scripts": {
-    "test": "mocha"
-  },
+    "test": "mocha"},
   "keywords": [],
   "author": "",
   "license": "ISC"
