@@ -1,0 +1,12 @@
+{
+  "name": "javascript-api-path",
+  "version": "1.0.0",
+  "description": "-Introduction to javascript",
+  "main": "test",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
