@@ -13,7 +13,7 @@ describe('Mocha Hooks', function(){
     });
 
     afterEach('Execute After Each Test', function(){
-        console.log('Execute Before Each Test');
+        console.log('Execute After Each Test');
     });
 
     it('Mocha Hooks Test', function(){
