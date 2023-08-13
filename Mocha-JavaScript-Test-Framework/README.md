@@ -21,3 +21,12 @@
 👉beforeEach () : runs before each tests in the code block
 
 👉afterEach () : runs after each tests in the code block
+
+...
+~Test Features
+
+👉Exclusive Tests - allows us to execute only the specified test suite or a test case. It can be achieved by adding .only() function, and it can be added to both describe() and it() functions.
+
+👉Inclusive Tests - This will tell Mocha to simply ignore these tests suites or test cases. This can be achieved by adding .skip(). 
+
+👉Pending Tests - Pending tests will be included in the test results and marked as pending. A pending test is not considered as failed a test.
