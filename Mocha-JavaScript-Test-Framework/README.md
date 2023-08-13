@@ -30,3 +30,12 @@
 👉Inclusive Tests - This will tell Mocha to simply ignore these tests suites or test cases. This can be achieved by adding .skip(). 
 
 👉Pending Tests - Pending tests will be included in the test results and marked as pending. A pending test is not considered as failed a test.
+
+...
+~Retry Tests: Used too execute the failed tests several times according to your requirements. Retry will not work with before() and after() hooks. But it can be used in beforeEach() and afterEach() hooks.
+
+...
+~Timeout Tests: used to tell Mocha for the timeouts. There are 3 levels where timeouts can be used.
+
+👉Suite-level timeouts are used to throw out the test suits.Whereas 👉test-level timeouts are specific to the test case.
+👉Hook-level timeouts can be used in the hooks
