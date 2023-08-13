@@ -1,0 +1,12 @@
+{
+  "name": "test-features",
+  "version": "1.0.0",
+  "description": "",
+  "main": "testFeature.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
