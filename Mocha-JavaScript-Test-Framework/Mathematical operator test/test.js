@@ -7,6 +7,7 @@ Test cases:
 4. Division
 */
 
+
 var assert = require('assert');
 
 describe('Mathematical operations', function () {
