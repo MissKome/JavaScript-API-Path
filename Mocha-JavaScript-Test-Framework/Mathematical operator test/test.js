@@ -1,5 +1,4 @@
 /*
-
 Test suite: Mathematical operations
 Test cases: 
 1. Addition
