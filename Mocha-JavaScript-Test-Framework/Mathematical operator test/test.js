@@ -1,4 +1,5 @@
 /*
+
 Test suite: Mathematical operations
 Test cases: 
 1. Addition
@@ -21,7 +22,7 @@ describe('Mathematical operations', function () {
 
     it('Subtraction of two numbers', function () {
         var a = 10
-        var b = 10
+        var b = 10 
         var c = a-b
 
         assert.equal(c,0);
