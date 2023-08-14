@@ -42,3 +42,14 @@
 👉test-level timeouts are specific to the test case.
 
 👉Hook-level timeouts can be used in the hooks.
+
+...
+~Reporters
+
+Types of reporters
+
+👉SPEC: Spec is the default reporter. It outputs a hierarchical view according to the test cases.
+
+👉DOT MATRIX:dot matrix reporter is a series of characters which represent the test cases. Failures are highlighted in the red exclamation mark, the pending tests with the blue comma and the slow tests as a yellow color.
+
+👉Other types of reporters are; NYAN, TAP, Landing Strip, List, Proress, JSON Stream, JSON, Min, Doc
