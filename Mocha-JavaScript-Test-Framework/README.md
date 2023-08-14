@@ -37,7 +37,7 @@
 ...
 ~Timeout Tests: used to tell Mocha for the timeouts. There are 3 levels where timeouts can be used.
 
-👉Suite-level timeouts are used to throw out the test suits.Whereas 
+👉Suite-level timeouts are used to throw out the test suits.
 
 👉test-level timeouts are specific to the test case.
 
