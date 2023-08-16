@@ -10,3 +10,4 @@ npm install mocha  --save-dev
 
 mkdir test
 
+- After creating the test file, and you have written the test. Use the command npm test to run the tests on your terminal.
