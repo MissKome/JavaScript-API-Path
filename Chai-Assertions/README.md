@@ -10,3 +10,9 @@ BDD (Behavior Driven Development)
 TDD (Test Driven Development)
 
  * Assert
+
+ -Install chai :
+
+Let's add Mocha and Chai packages to the package.json
+
+npm install mocha chai --save-dev
