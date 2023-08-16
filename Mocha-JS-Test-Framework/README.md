@@ -2,6 +2,13 @@
 
 npm init -y
 
+In your package.json file, add "mocha" as the tests. 
+"scripts": {
+    "test": "mocha"
+  }
+
+  Note: to display in a different reporter, for example, use "mocha --reporter "dot" 
+
 - Secondly, add Mocha package to the package.json:
 
 npm install mocha  --save-dev
