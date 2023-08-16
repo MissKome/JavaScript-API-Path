@@ -4,9 +4,9 @@ Chai is classified into two
 
 - BDD (Behavior Driven Development)
 
-* * Expect
-* * Should
+ * Expect
+ * Should
 
 - TDD (Test Driven Development)
 
-* * Assert
+ * Assert
