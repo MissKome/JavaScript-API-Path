@@ -15,4 +15,6 @@ TDD (Test Driven Development)
 
 Let's add Mocha and Chai packages to the package.json
 
-npm install mocha chai --save-dev
+npm install mocha chai --save-
+
+node test/testfile.js
