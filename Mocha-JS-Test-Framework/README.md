@@ -7,7 +7,7 @@ In your package.json file, add "mocha" as the tests.
     "test": "mocha"
   }
 
-  Note: to display in a different reporter, for example, use "mocha --reporter "dot" 
+  Note: to display in a different reporter, for example, use "mocha --reporter dot" 
 
 - Secondly, add Mocha package to the package.json:
 
