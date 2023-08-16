@@ -48,8 +48,14 @@
 
 Types of reporters
 
-👉SPEC: Spec is the default reporter. It outputs a hierarchical view according to the test cases.
+👉SPEC: Spec is the default reporter. It outputs a hierarchical view according to the test cases. 
 
-👉DOT MATRIX:dot matrix reporter is a series of characters which represent the test cases. Failures are highlighted in the red exclamation mark, the pending tests with the blue comma and the slow tests as a yellow color.
+(mocha --reporter spec)
 
-👉Other types of reporters are; NYAN, TAP, Landing Strip, List, Proress, JSON Stream, JSON, Min, Doc
+👉DOT MATRIX:dot matrix reporter is a series of characters which represent the test cases. Failures are highlighted in the red exclamation mark, the pending tests with the blue comma and the slow tests as a yellow color. 
+
+(mocha --reporter dot)
+
+👉Other types of reporters are; NYAN, TAP, Landing Strip, List, Proress, JSON Stream, JSON, Min, Doc. 
+
+(mocha --reporter nyan), (mocha --reporter json)
