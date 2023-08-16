@@ -13,9 +13,10 @@ describe('Mathematical operations', function () {
     it('Addition of two numbers', function () {
         var a = 10
         var b = 10 
-        var c = a+b
+        var c = 10
+        var d = a+b+c
 
-        assert.equal(c,20);
+        assert.equal(d,30);
 
     });
 
