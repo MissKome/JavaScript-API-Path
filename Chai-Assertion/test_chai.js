@@ -1,4 +1,5 @@
 const chai = require('chai');
+const { error } = require('selenium-webdriver');
 
 //expect
 const expect = chai.expect;
@@ -67,3 +68,17 @@ expect(numbers).to.be.an('array').that.includes(3);
 (numbers).should.be.an('array').that.includes(3);
 assert.isArray(numbers, 'numbers is not an array');
 
+//should extras
+//should -> Object.Prototype - a.should
+//existence of an object
+function writeToAFile(error){
+    //should xtras
+
+    //normal scenario
+    //error.should.not.exist();
+
+    //Given that error is undefined
+    should.not.exist(error);
+}
+
+writeToAFile (undefined);
