@@ -49,3 +49,21 @@ expect(numbers).to.be.an('array').that.includes(8);
 assert.isArray(numbers, 'numbers is not an array')
 
 
+//should extras
+//should-> object.prototype - a.should
+//existence of an object
+function writeToAFile(error){
+    //should extra
+
+    //normal scenario
+    //error.should.not.exist();
+
+    //Given that error is undefined
+    should.not.exist(error);
+}
+
+writeToAFile(undefined);
+
+
+
+
